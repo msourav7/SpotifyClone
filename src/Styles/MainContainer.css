@@ -238,7 +238,7 @@ cursor: pointer;}
   margin-right: 14px;
 }
 
-@media screen and(550px) {
+@media screen and (max-width : 550px) {
   .mainContainer{
     min-width: 360px;
   }
@@ -247,10 +247,10 @@ cursor: pointer;}
   }
  
   .banner .content .artist .left .name h2{
-    font-size: 20px;
+    font-size: 15px;
   }
-  .banner .content .artist a{
-    padding: 5px 15px;
+  .banner .content .artist .right a{
+    padding: 5px 10px;
     font-size: 12px;
     margin: 0 10px;
   }
@@ -267,9 +267,27 @@ cursor: pointer;}
   font-size: 10px;
   }
 
-  .audioList{
-    padding: 10px 5px;
+  .menuList p {
+    display: block;
   }
+
+  .audioList{
+    padding: 0px 0px;
+  }
+
+
+  .songsContainer {
+    height: 90px;
+  }
+  .songAttribute .bottom {
+    margin-bottom: -2px;
+  }
+  .songAttribute {
+    width: 59%;
+  }
+  
+
+
   .audioList .songs .song .section .songName{
     width: 100%;
   }

@@ -64,6 +64,6 @@ color: #848484;
 
 @media screen and (max-width:550px) {
     .rightMenu{
-        min-width: 60px;
+        min-width: 40px;
     }
 }

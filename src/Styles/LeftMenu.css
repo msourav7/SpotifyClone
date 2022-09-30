@@ -198,15 +198,18 @@ position: relative;
     .leftMenu .MenuContainer ul li a span{
         display: none;
     }
-    .leftMenu .MenuContainer ul li a span{
+    .leftMenu .MenuContainer ul li a i{
         font-size: 24px;
     }
     .leftMenu .MenuContainer ul li {
        margin: 25px 0;
     }
     .leftMenu .logoContainer h2{
-        margin-left:20px ;
+        margin-left:80px ;
     }
+    /* .MenuContainer .title{
+       margin-right: 80px;
+    } */
 }
 
 

@@ -136,18 +136,22 @@ color: #9a9a9a;
     font-weight: bold;
 }
 
-@media screen and(max-width:550px) {
-    .songImage{
-        width: 100px;
-        min-width: 100px;
+@media screen and (max-width:550px) {
+    .songImage{    
+      width: 105px;
+      min-width: 3px;
+      height: 62px;
     }
     .songAttribute .top .left i,
     .songAttribute .top .middle i,
     .songAttribute .top .right i{
-      margin: 0px 5px;
+      margin: 0px 6px;
+    }
+    .right{
+        margin-right: 20PX;
     }
     .songAttribute .bottom{
-        padding: unset;
+        margin-right: 20px;
     }
     .songAttribute .bottom .progressBar{
         width: 65%;
